@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fundo.jpg.jpg'); /* nome do arquivo da imagem */
+    background-size: cover; /* cobre toda a tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* não repete */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Container centralizado */
+.container {
+    text-align: center;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 15px;
+    background-color: #FFFACD; /* Fundo mais claro pro container */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em; /* Aumenta bastante a letra */
+    margin-bottom: 20px;
+}
+
+/* Frase */
+#frase {
+    font-size: 1.8em; /* Frase maior e fácil de ler */
+    margin-bottom: 20px;
+    color: #555; /* Cor da letra */
+}
+
+/* Imagem (se houver) */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
