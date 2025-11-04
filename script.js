@@ -57,7 +57,7 @@ document.getElementById("compartilhar").addEventListener("click", function() {
   const frase = document.getElementById("frase").textContent;
   const data = document.getElementById("data").textContent;
 
-  const mensagem = `🌻 Frase do Dia (${data}): ${frase}\n\nConfira mais em: https://seusite.com`; // troque pela URL real quando publicar
+  const mensagem = `🌻 Frase do Dia (${data}): ${frase}\n\nConfira mais em: https://giulliavellardo.github.io/calendario-de-boas-energias-/`;
   const link = `https://wa.me/?text=${encodeURIComponent(mensagem)}`;
   
   window.open(link, "_blank");
