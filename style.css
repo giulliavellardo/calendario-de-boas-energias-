@@ -8,16 +8,15 @@
 /* Corpo do site */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fundo.jpg.jpg'); /* nome do arquivo da imagem */
-    background-size: cover; /* cobre toda a tela */
-    background-position: center; /* centraliza a imagem */
-    background-repeat: no-repeat; /* não repete */
+    background-image: url('fundo.jpg.jpg'); /* imagem de fundo */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
 
 /* Container centralizado */
 .container {
@@ -25,27 +24,57 @@ body {
     padding: 30px;
     max-width: 600px;
     border-radius: 15px;
-    background-color: #FFFACD; /* Fundo mais claro pro container */
+    background-color: #FFFACD; /* fundo clarinho */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* Título */
 h1 {
-    font-size: 2.5em; /* Aumenta bastante a letra */
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 /* Frase */
 #frase {
-    font-size: 1.8em; /* Frase maior e fácil de ler */
+    font-size: 1.8em;
     margin-bottom: 20px;
-    color: #555; /* Cor da letra */
+    color: #555;
 }
 
-/* Imagem (se houver) */
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
+/* Data */
+#data {
+    font-size: 1.3em;
+    color: #d1a000;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 255, 150, 0.4);
+    margin-bottom: 10px;
+}
+
+/* Botão do WhatsApp */
+#compartilhar {
+    background-color: #25D366; /* verde do WhatsApp */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ícone do botão (caso use <i> dentro dele) */
+#compartilhar i {
+    pointer-events: none;
+}
+
+/* Efeito ao passar o mouse */
+#compartilhar:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.1);
+}
+
+/* Ajuste de espaçamento abaixo da frase */
+button {
+    margin-top: 15px;
 }
