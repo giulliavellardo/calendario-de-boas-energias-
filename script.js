@@ -1,3 +1,4 @@
+
 // Lista de frases do dia
 const frases = [
   "O sucesso é a soma de pequenos esforços repetidos todos os dias.",
